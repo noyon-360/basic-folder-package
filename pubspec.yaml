@@ -1,5 +1,5 @@
 name: my_basic_package
-description: "A new Flutter package project."
+description: A Flutter package that provides basic utilities and components for building Flutter applications.
 version: 0.0.1
 homepage: https://github.com/noyon-360/basic-folder-package.git
 

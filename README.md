@@ -11,29 +11,37 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+my_basic_package is a Flutter package that provides basic utilities and components for building Flutter applications.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Basic utilities for common tasks
+- Reusable components for building Flutter UIs
+- Easy integration with existing Flutter projects
+
+lib
+|   |-- config
+|   |   '-- route
+|   |       |-- routes.dart
+|   |       '-- routes_name.dart
+|   |-- core
+|   |   |-- secure_key_content
+|   |   |   '-- secure_key.dart
+|   |   '-- theme.dart (7 KB)
+|   |-- my_basic_package.dart
+|   |-- presentation
+|   |   |-- pages
+|   |   |   |-- home.dart
+|   |   |   |-- onboarding_screen.dart
+|   |   |   '-- splash_screen.dart
+|   |   '-- widges
+|   '-- services
+|       '-- theme_manager.dart
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To start using this package, add `my_basic_package` as a dependency in your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  my_basic_package: ^0.0.1

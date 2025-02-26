@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial release of my_basic_package.
+* Added basic utilities and components for building Flutter applications.
